@@ -30,6 +30,6 @@ public class Nutrient {
     }
 
     public MutableComponent getDisplayName(ResourceLocation key) {
-        return Component.translatable(key.toString());
+        return Component.translatable(key.toLanguageKey("nutrient"));
     }
 }
