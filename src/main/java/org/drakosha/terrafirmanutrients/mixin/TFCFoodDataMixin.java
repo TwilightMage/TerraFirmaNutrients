@@ -16,6 +16,8 @@ import org.drakosha.terrafirmanutrients.*;
 import org.drakosha.terrafirmanutrients.accessors.Accessor;
 import org.drakosha.terrafirmanutrients.accessors.FoodDataAccessor;
 import org.drakosha.terrafirmanutrients.accessors.NutritionDataAccessor;
+import org.drakosha.terrafirmanutrients.events.AteBadNutrientEvent;
+import org.drakosha.terrafirmanutrients.events.DefineNutrientsEvent;
 import org.drakosha.terrafirmanutrients.network.Network;
 import org.drakosha.terrafirmanutrients.network.SyncNutrientSetPacket;
 import org.spongepowered.asm.mixin.*;

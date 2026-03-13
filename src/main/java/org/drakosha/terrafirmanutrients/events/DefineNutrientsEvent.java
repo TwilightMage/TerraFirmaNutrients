@@ -1,8 +1,11 @@
-package org.drakosha.terrafirmanutrients;
+package org.drakosha.terrafirmanutrients.events;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.eventbus.api.Event;
+import org.drakosha.terrafirmanutrients.Nutrient;
+import org.drakosha.terrafirmanutrients.NutrientRegistry;
+import org.drakosha.terrafirmanutrients.TerraFirmaNutrients;
 
 import java.util.*;
 import java.util.function.Consumer;

@@ -1,7 +1,5 @@
 package org.drakosha.terrafirmanutrients;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.TextColor;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -10,6 +8,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import org.drakosha.terrafirmanutrients.events.AteBadNutrientEvent;
+import org.drakosha.terrafirmanutrients.events.DefineNutrientsEvent;
 
 import java.awt.*;
 
