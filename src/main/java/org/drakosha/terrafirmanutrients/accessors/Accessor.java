@@ -1,4 +1,4 @@
-package org.drakosha.terrafirmanutrients;
+package org.drakosha.terrafirmanutrients.accessors;
 
 import net.dries007.tfc.common.capabilities.food.FoodDefinition;
 import net.dries007.tfc.common.capabilities.food.FoodHandler;

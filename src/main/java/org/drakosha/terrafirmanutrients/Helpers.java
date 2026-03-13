@@ -10,11 +10,11 @@ import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.Tag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.network.chat.TextColor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
+import org.drakosha.terrafirmanutrients.accessors.NutritionDataAccessor;
 
-import java.awt.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;

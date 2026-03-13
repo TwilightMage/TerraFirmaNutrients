@@ -7,6 +7,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import org.drakosha.terrafirmanutrients.*;
 import org.drakosha.terrafirmanutrients.Nutrient;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
+import org.drakosha.terrafirmanutrients.accessors.FoodDefinitionAccessor;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

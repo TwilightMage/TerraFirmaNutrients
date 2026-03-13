@@ -8,6 +8,7 @@ import net.dries007.tfc.common.recipes.SoupPotRecipe;
 import net.minecraft.world.item.ItemStack;
 import org.drakosha.terrafirmanutrients.*;
 import org.drakosha.terrafirmanutrients.Nutrient;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;

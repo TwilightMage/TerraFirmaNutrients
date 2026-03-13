@@ -2,7 +2,7 @@ package org.drakosha.terrafirmanutrients.mixin;
 
 import net.dries007.tfc.common.capabilities.food.FoodData;
 import net.minecraft.nbt.CompoundTag;
-import org.drakosha.terrafirmanutrients.FoodHandlerAccessor;
+import org.drakosha.terrafirmanutrients.accessors.FoodHandlerAccessor;
 import org.drakosha.terrafirmanutrients.TFNFoodData;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

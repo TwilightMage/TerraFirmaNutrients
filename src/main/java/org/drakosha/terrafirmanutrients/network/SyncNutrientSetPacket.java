@@ -6,7 +6,7 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.network.NetworkEvent;
-import org.drakosha.terrafirmanutrients.Accessor;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
 import org.drakosha.terrafirmanutrients.Nutrient;
 import org.drakosha.terrafirmanutrients.NutrientRegistry;
 

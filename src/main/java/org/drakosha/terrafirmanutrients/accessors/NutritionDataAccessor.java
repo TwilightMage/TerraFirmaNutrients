@@ -1,4 +1,7 @@
-package org.drakosha.terrafirmanutrients;
+package org.drakosha.terrafirmanutrients.accessors;
+
+import org.drakosha.terrafirmanutrients.Nutrient;
+import org.drakosha.terrafirmanutrients.TFNFoodData;
 
 import java.util.Set;
 

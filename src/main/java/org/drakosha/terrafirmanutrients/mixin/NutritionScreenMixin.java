@@ -9,6 +9,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.food.FoodData;
 import org.drakosha.terrafirmanutrients.*;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
+import org.drakosha.terrafirmanutrients.accessors.NutritionDataAccessor;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Unique;

@@ -5,6 +5,7 @@ import net.dries007.tfc.common.capabilities.food.FoodHandler;
 import net.dries007.tfc.common.capabilities.food.FoodTrait;
 import net.dries007.tfc.config.TFCConfig;
 import net.dries007.tfc.util.Helpers;
+import org.drakosha.terrafirmanutrients.accessors.Accessor;
 
 public class TFNFoodHandler extends FoodHandler {
     public TFNFoodHandler(TFNFoodData data) {
