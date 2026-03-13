@@ -9,7 +9,6 @@ This mod is a TFC addon that allows other mods to add various nutritional needs 
 # TODO
 - Support jams
 - Support salads
-- Allow manual calling of nutrient set redefinition
 
 # Incompatibilities
 Pretty much everything that tries to change TFC nutrition system
