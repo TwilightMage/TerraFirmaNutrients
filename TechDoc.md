@@ -23,7 +23,7 @@ Thirst is also defined by `Nutrient` so different species required to drink diff
 
 Standard TFC nutrients are defined in `NutrientRegistry` class.
 
-Player nutrient set is defined in `DefineNutrientsEvent`. This event is emitted on player spawn or respawn.
+Player nutrient set is defined in `DefineNutrientsEvent`. This event is emitted on player spawn or respawn. Can be manually triggered by `Helpers.redefinePlayerNutritionData(Player)`.
 
 On consuming nutrient missing from the player nutrient set, `AteBadNutrientEvent` is emitted. This is a good place to inject bad effects for incompatible nutrients.
 
