@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.drakosha.terrafirmanutrients.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.terrafirmanutrients.refmap.json",
+  "mixins": [
+    "DrinkableMixin",
+    "FoodDataUpdatePacketMixin",
+    "FoodDefinitionMixin",
+    "FoodHandlerDynamicMixin",
+    "FoodHandlerMixin",
+    "IFoodMixin",
+    "NutritionDataMixin",
+    "NutritionScreenMixin",
+    "SoupPotRecipeMixin",
+    "TFCFoodDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

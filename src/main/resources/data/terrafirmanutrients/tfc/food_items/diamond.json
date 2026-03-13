@@ -1,0 +1,11 @@
+﻿{
+  "ingredient": {
+    "tag": "forge:gems/diamond"
+  },
+  "hunger": 4,
+  "saturation": 2,
+  "decay_modifier": 0,
+  "nutrients": {
+    "terrafirmanutrients:crystals": 2
+  }
+}
